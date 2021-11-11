@@ -6,3 +6,9 @@ if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
     print(ch, "is a Vowel")
 else:
     print(ch, "is a Consonant")
+# Tried another way
+v=[A,E,I,O,U,a,e,i,o,u]
+if ch in v:
+    print(ch, "is a Vowel")
+else:
+    print(ch, "is a Consonant")
