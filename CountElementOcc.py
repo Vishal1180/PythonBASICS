@@ -20,3 +20,8 @@ from collections import Counter
 l4 = dict(Counter(list1))
 print(l4)
 
+# tried another way
+d = dict()
+for i in list1:
+    d.update({i:list1.count(i)})
+print(d)
